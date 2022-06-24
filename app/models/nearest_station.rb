@@ -1,7 +1,5 @@
 class NearestStation < ApplicationRecord
-  belongs_to :rental_property
+  belongs_to :rental_property, inverse_of: :nearest_stations
 
-  validates :line, presence: true
-  validates :name, presence: true
-  validates :walking_minutes, presence: true, numericality: true
+  validates :walking_minutes, numericality: true
 end
