@@ -13,3 +13,23 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+  margin-left: 30px;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+.field {
+  margin-top: 10px;
+}
+
+.actions {
+  margin: 10px 0;
+}
+
+.show {
+  margin-left: 50px;
+}
